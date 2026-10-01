@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en">   
+    <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="javascript/script.js"></script>
-</head>
-<body>
-<!--Your HTML goes here.-->
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>litzy's 2026 song wrap</h1>
+        <div class="litzy-assets">
+            <img src="assets/winter-litzy.png" alt="litzy-in-winter" class="winter-litzy">
+            <img src="assets/spring-litzy.png" alt="litzy-in-spring" class="spring-litzy">
+            <img src="assets/summer-litzy.png" alt="litzy-in-summer" class="summer-litzy">
+            <img src="assets/fall-litzy.png" alt="litzy-in-fall" class="fall-litzy">
+        </div>
+        <div class="background-assets">
+            <img src="assets/winter-background.png" alt="winter-background" class="winter-background">
+            <img src="assets/spring-background.png" alt="spring-background" class="spring-background">
+            <img src="assets/summer-background.png" alt="summer-background" class="summer-background">
+            <img src="assets/fall-background.png" alt="fall-background" class="fall-background">
+        </div>
+        <div class="storyline">
+            <h1 class="header"> Welcome to Litzy's 2026 Song Wrap! </h1>
+            <p class ="winter-song"> 
+                Tren Al Sur by Los Prisioneros: My most listened song in the beginning of the year. 
+                Every time I listen to this song, I get transmitted back to Mexico and remember how slow the time was, 
+                living in the moment, and small trips with my family around the countryside or city felt so healing. 
+                It was my first time traveling alone and I would do it again. 
+            </p>
+            <p class="spring-song"> Boca Chica By MUNYA: I stumbled upon this song around march and i had a pretty memorable day. I had really good laughs 
+                with friends, watched a CUNY soccer match, and had a really good lunch near the met cloisters. This song is like millenial optimism for me.
+            </p>
+            <p class="summer-song"> Summer Breeze By Seals and Crofts: I had a amazing summer, went out with friends ALOT, went to montauk and explored together,
+                ate really good food. I remember hearing this song on the road trip to montauk. My hair was blowing in the wind, smelling the ocean, and seeing the seagulls flying around. 
+            </p>
+            <p class="fall-song"> Tomorrow never came by Lana Del Rey: I love Lana Del Rey already and I found this song as I was actively doomscrolling spiderman edits. I think the movie and this song are a perfect match. 
+                It is pretty melancholic but I feel like that's kinda fitting for fall. Second option was Mazzy Star's "Fade Into You" but I kinda listen to that song always. Fall, time for reflection and pumkin spice lattes.
+            </p>
+        </div>
+        <div class="mp3-player">
+            <div class="mp3-player-assets">
+                <img src="assets/los-prisoneros.png" alt="first-song" class="los-prisoneros">
+                <img src="assets/munca.png" alt="second-song" class="munca">
+                <img src="assets/seals-crofts.png" alt="third-song" class="seals-crofts">
+                <img src="assets/lana-del-rey.png" alt="fourth-song" class="lana-del-rey">
+            </div>
+            <div class="control-assets">
+                <button class="play-button">▶</button>
+                <button class="pause-button">Ⅱ</button>
+                <button class="back-button">◀</button>
+                <button class="forward-button">▶</button>
+                <button class="stop-button">⏹</button>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+        <script src="animations.js"></script>
+        <script src="mp3.js"></script>
+    </body>
 </html>
